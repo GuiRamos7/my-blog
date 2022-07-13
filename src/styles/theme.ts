@@ -9,4 +9,16 @@ export const theme = extendTheme({
       200: '#c2f776',
     },
   },
+  fonts: {
+    heading: 'Merriweather',
+    body: 'Poppins',
+  },
+  styles: {
+    global: {
+      body: {
+        bg: 'black',
+        color: 'white',
+      },
+    },
+  },
 });
