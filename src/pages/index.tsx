@@ -3,8 +3,11 @@ const Home = () => {
   return (
     <div>
       Olá mundooo
+      <Heading fontSize='xl' textDecoration='underline'>
+        (6xl) In love with React & Next
+      </Heading>
       <Heading
-        background='purple.200'
+        background='green.200'
         display='inline'
         color='black'
         fontSize='xl'
@@ -12,9 +15,9 @@ const Home = () => {
         (6xl) In love with React & Next
       </Heading>
       <Heading
-        background='green.200'
+        background='purple.200'
         display='inline'
-        color='black'
+        color='white'
         fontSize='xl'
       >
         (6xl) In love with React & Next
