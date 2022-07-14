@@ -5,8 +5,18 @@ export const theme = extendTheme({
     purple: {
       200: '#a578e3',
     },
+    blue: {
+      100: '#b5bcf3',
+      800: '#38396d',
+    },
     green: {
       200: '#c2f776',
+    },
+    pink: {
+      100: '#f9bdd4',
+    },
+    gray: {
+      200: '#fff5f2',
     },
   },
   fonts: {
@@ -16,8 +26,8 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: '#fdfdfd',
-        color: '#242424',
+        background: '#fdfdfd',
+        color: '#38396d',
       },
     },
   },
