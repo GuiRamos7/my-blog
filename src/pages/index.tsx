@@ -5,10 +5,10 @@ const Home = () => {
     <Flex h='100vh' direction='column'>
       <Header />
       <Main />
-      <Flex ml='2' gap='16px'>
+      {/* <Flex ml='2' gap='16px'>
         <Post />
         <Post />
-      </Flex>
+      </Flex> */}
     </Flex>
   );
 };
