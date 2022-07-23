@@ -1,6 +1,5 @@
-import { Button, Flex, Text, Image, chakra } from '@chakra-ui/react';
+import { Button, Flex, Text, Image } from '@chakra-ui/react';
 import { motion, isValidMotionProp } from 'framer-motion';
-import { useState } from 'react';
 
 const asd = {
   hidden: { opacity: 1 },
@@ -26,10 +25,6 @@ const palavras =
 
 const Main = () => {
   const randomNumber = Math.floor(Math.random() * (6 - 1 + 1) + 1);
-
-  const ChakraBox = chakra(motion.div, {
-    shouldForwardProp: isValidMotionProp,
-  });
 
   return (
     <Flex
